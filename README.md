@@ -26,11 +26,12 @@ directives still resolve against the untouched `listings/`, and the
 license travels with the text. Built for the Thai-speaking Rustacean:
 [suradet-ps.github.io/rustbook-th](https://suradet-ps.github.io/rustbook-th/).
 
-| 112 files translated ▣ | Glossary ▣ | Links verified ▣ | Build passing ▣ |
+| 112 files translated ▣ | Glossary, one canon per term ▣ | 2,239 anchor links OK ▣ | Build passing ▣ |
 |---|---|---|---|
-| 21 chapters + 7 appendixes | one canon per term | every anchor, on the built book | mdbook 0.5 |
+| 21 chapters + 7 appendixes | chosen once, reused everywhere | checked on the built book | code blocks byte-exact |
 
-*v0.1.0 - translation in progress; the verifier is the gate.*
+*v1.0.0 - translation, glossary, verification, and the static build
+are all sealed.*
 
 > Built with mdbook 0.5 + Markdown, translated from
 > [rust-lang/book](https://github.com/rust-lang/book), verified by
@@ -56,6 +57,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```
 ⟫ mdbook build book                             # static HTML into book/book
+⟫ powershell scripts/rewrite-anchors.ps1        # map upstream anchors to the built Thai ids (after a build)
 ⟫ powershell scripts/check-links.ps1            # all anchors in the built book (pwsh on Linux/macOS)
 ⟫ powershell scripts/verify-translation.ps1     # byte-exact check vs upstream
 ```
@@ -64,6 +66,8 @@ Open [http://localhost:3000](http://localhost:3000).
 > `verify-translation.ps1` checks against `rust-lang/book` in adjacent directories or via `-Orig <path>`.
 > The build also compiles the upstream `mdbook-trpl` preprocessors from
 > `book/packages/mdbook-trpl`, so `cargo` must be available.
+> Links that escape the book (`../std/...`, `../reference/...`) point at the host
+> documentation on doc.rust-lang.org and are kept as upstream wrote them.
 
 <details>
 <summary>Translating a chapter</summary>
@@ -75,8 +79,9 @@ directives (`{{#include}}`, `{{#rustdoc_include}}`), links, and
 filenames stay verbatim; only prose and headings are translated. A
 `<Listing>` tag keeps its `number` and `file-name`; only the
 `caption` is translated. Heading anchors follow mdbook's slug rules
-(Thai tone marks and vowel signs are stripped), so anchors are copied
-from the built HTML, never guessed.
+(Thai tone marks are stripped, vowel signs are kept), so anchors are
+taken from the built HTML by `scripts/rewrite-anchors.ps1`, never
+guessed.
 
 </details>
 
@@ -93,11 +98,12 @@ One stack, zero custom JS, several quiet helpers.
   term per concept, chosen once and reused), so chapter nine agrees
   with chapter two.
 - **Verifies** - `scripts/verify-translation.ps1` diffs every code
-  block, heading level, and link target against upstream
-  `rust-lang/book` - byte-exact or it does not pass.
+  block (956 of them), heading level, and link target against
+  upstream `rust-lang/book` - byte-exact or it does not pass.
 - **Checks** - `scripts/check-links.ps1` walks the built book and
-  resolves every anchor link against real heading ids - including
-  the Thai slugs that mdbook derives from translated headings.
+  resolves every anchor link (2,239 of them) against real heading
+  ids - including the Thai slugs that mdbook derives from translated
+  headings.
 - **Builds** - mdbook renders static HTML into `book/book/` with the
   upstream `mdbook-trpl` listing and note preprocessors, localized
   with Thai labels (ลิสติ้ง, ชื่อไฟล์, หมายเหตุ), and the original
@@ -119,13 +125,15 @@ One stack, zero custom JS, several quiet helpers.
    directive as the original wrote it.
 3. Consult `GLOSSARY.md` for every term that already has a canon.
    New terms get proposed in the glossary first.
-4. Build, verify, check. The book builds clean, the diff is
-   byte-exact, and the anchors resolve.
+4. Build, rewrite anchors, verify, check. The book builds clean, the
+   diff is byte-exact, and the anchors resolve.
 
 **The ceremony of the anchor** - mdbook slugs strip Thai tone marks
-and vowel signs, so a heading's anchor is never its plain spelling.
-Anchors are read from the built HTML, written into the source, and
-re-verified - a guessed anchor is a broken link waiting to happen.
+but keep vowel signs, so a heading's anchor is never its plain
+spelling. `scripts/rewrite-anchors.ps1` maps each upstream heading
+positionally to the id mdbook actually emitted in the built page,
+then writes it into the source - a guessed anchor is a broken link
+waiting to happen.
 
 **The ceremony of the code block** - an include directive is code
 too. A translated `{{#rustdoc_include}}` path or a reflowed console
@@ -141,16 +149,16 @@ conscience of the repo.
 ```
 P1 ▸ bootstrap, glossary, book config, assets ─────────────────────── ▸ sealed
 P2 ▸ front matter + chapter 1 ─────────────────────────────────────── ▸ sealed
-P3 ▸ chapters 2-9 ─────────────────────────────────────────────────── ▸ in progress
-P4 ▸ chapters 10-16 ───────────────────────────────────────────────── ▸ pending
-P5 ▸ chapters 17-21 + appendixes ──────────────────────────────────── ▸ pending
-P6 ▸ full-book verification + Pages deploy ────────────────────────── ▸ pending
+P3 ▸ chapters 2-9 ─────────────────────────────────────────────────── ▸ sealed
+P4 ▸ chapters 10-16 ───────────────────────────────────────────────── ▸ sealed
+P5 ▸ chapters 17-21 + appendixes ──────────────────────────────────── ▸ sealed
+P6 ▸ full-book verification + anchor localization + Pages build ───── ▸ sealed
 ```
 
 **Raising the artifact** - the honest path lives in `GLOSSARY.md`
-(term canon), `scripts/` (the verification gate), and
-`book/book.toml` (book config). New chapters follow the
-frontmatter-free contract of the SUMMARY. Open an issue first to
+(term canon), `scripts/` (the verification gate and the anchor
+rewriter), and `book/book.toml` (book config). New chapters follow
+the frontmatter-free contract of the SUMMARY. Open an issue first to
 discuss a change.
 
 **Status** - on every change: `mdbook build book` must pass, the
