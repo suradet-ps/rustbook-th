@@ -264,5 +264,5 @@ again!
 
 เมื่อคุณพร้อมที่จะไปต่อ เราจะพูดถึงแนวคิดใน Rust ที่_ไม่ค่อย_มีอยู่ในภาษาโปรแกรมอื่น ซึ่งก็คือความเป็นเจ้าของ (ownership)
 
-[comparing-the-guess-to-the-secret-number]: ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
-[quitting-after-a-correct-guess]: ch02-00-guessing-game-tutorial.html#quitting-after-a-correct-guess
+[comparing-the-guess-to-the-secret-number]: ch02-00-guessing-game-tutorial.html#การเปรียบเทียบคำทายกับตัวเลขลับ
+[quitting-after-a-correct-guess]: ch02-00-guessing-game-tutorial.html#ออกจากเกมเมือทายถูก

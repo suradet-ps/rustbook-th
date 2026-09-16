@@ -347,11 +347,11 @@ ignore --> ในบทที่ 8) คุณจึงส่งสตริง�
 
 ตอนนี้คุณรู้วิธีเขียนเทสต์หลายวิธีแล้ว มาดูว่าเกิดอะไรขึ้นเมื่อเรารันเทสต์ของเรา และสำรวจตัวเลือกต่างๆ ที่เราใช้กับ `cargo test` ได้
 
-[concatenating]: ch08-02-strings.html#concatenating-with--or-format
+[concatenating]: ch08-02-strings.html#การเชือมดวย--หรือ-format
 [bench]: ../unstable-book/library-features/test.html
-[ignoring]: ch11-02-running-tests.html#ignoring-tests-unless-specifically-requested
-[subset]: ch11-02-running-tests.html#running-a-subset-of-tests-by-name
-[controlling-how-tests-are-run]: ch11-02-running-tests.html#controlling-how-tests-are-run
+[ignoring]: ch11-02-running-tests.html#การขามเทสตเวนแตจะถูกรองขออยางเจาะจง
+[subset]: ch11-02-running-tests.html#การรันเทสตบางสวนตามชือ
+[controlling-how-tests-are-run]: ch11-02-running-tests.html#ควบคุมวิธีการรันเทสต
 [derivable-traits]: appendix-03-derivable-traits.html
-[doc-comments]: ch14-02-publishing-to-crates-io.html#documentation-comments-as-tests
+[doc-comments]: ch14-02-publishing-to-crates-io.html#คอมเมนตเอกสารประกอบในฐานะเทสต
 [paths-for-referring-to-an-item-in-the-module-tree]: ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html

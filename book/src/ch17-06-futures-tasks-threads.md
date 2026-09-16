@@ -40,6 +40,6 @@
 ต่อไป เราจะพูดถึงวิธีที่เป็นสำนวนนิยมในการจำลองปัญหาและจัดโครงสร้างวิธีแก้ปัญหาเมื่อโปรแกรม Rust ของคุณใหญ่ขึ้น นอกจากนี้ เราจะอภิปรายว่าสำนวนของ Rust เกี่ยวข้องอย่างไรกับสำนวนที่คุณอาจคุ้นเคยจากการเขียนโปรแกรมเชิงวัตถุ (object-oriented programming)
 
 [ch16]: ch16-00-concurrency.html
-[combining-futures]: ch17-03-more-futures.html#building-our-own-async-abstractions
+[combining-futures]: ch17-03-more-futures.html#การสรางนามธรรม-async-ของเราเอง
 [streams]: ch17-04-streams.html#composing-streams
 [ch21]: ch21-00-final-project-a-web-server.html

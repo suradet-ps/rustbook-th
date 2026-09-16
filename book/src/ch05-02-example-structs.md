@@ -154,7 +154,7 @@ Rust _มี_ ฟังก์ชันการทำงานสำหรับ
 
 ฟังก์ชัน `area` ของเราจำเพาะเจาะจงมาก เพราะมันคำนวณได้เฉพาะพื้นที่ของสี่เหลี่ยมผืนผ้า การผูกพฤติกรรมนี้ให้ใกล้ชิดกับ struct `Rectangle` ของเรามากขึ้นจะมีประโยชน์ เพราะมันใช้ไม่ได้กับชนิดข้อมูลอื่นใด มาดูกันว่าเราจะรีแฟกเตอร์โค้ดนี้ต่อไปโดยเปลี่ยนฟังก์ชัน `area` ให้เป็นเมธอด `area` ที่นิยามบนชนิด `Rectangle` ของเราได้อย่างไร
 
-[the-tuple-type]: ch03-02-data-types.html#the-tuple-type
+[the-tuple-type]: ch03-02-data-types.html#ชนิดทูเพิล
 [app-c]: appendix-03-derivable-traits.md
 [println]: ../std/macro.println.html
 [dbg]: ../std/macro.dbg.html

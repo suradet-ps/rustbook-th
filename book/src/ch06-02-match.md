@@ -148,5 +148,5 @@ Rust ยังมีแพตเทิร์นที่เราใช้ได
 
 ยังมีเรื่องแพตเทิร์นและการจับคู่แพตเทิร์น (pattern matching) เพิ่มเติมที่เราจะครอบคลุมใน[บทที่ 19][ch19-00-patterns]<!-- ignore --> สำหรับตอนนี้ เราจะไปต่อยังวากยสัมพันธ์ `if let` ซึ่งมีประโยชน์ในสถานการณ์ที่เอ็กซ์เพรสชัน `match` ยืดยาวสักหน่อย
 
-[tuples]: ch03-02-data-types.html#the-tuple-type
+[tuples]: ch03-02-data-types.html#ชนิดทูเพิล
 [ch19-00-patterns]: ch19-00-patterns.html

@@ -274,9 +274,9 @@ Rust ให้เราคืนค่าหลายค่าได้โดย
 
 แต่นี่เป็นพิธีกรรมที่มากเกินไปและต้องทำงานมากสำหรับแนวคิดที่ควรจะเป็นเรื่องธรรมดา โชคดีสำหรับเรา Rust มีฟีเจอร์สำหรับการใช้ค่าโดยไม่ต้องถ่ายโอนความเป็นเจ้าของ นั่นคือเรเฟอเรนซ์
 
-[data-types]: ch03-02-data-types.html#data-types
+[data-types]: ch03-02-data-types.html#ชนิดขอมูล
 [ch8]: ch08-02-strings.html
 [traits]: ch10-02-traits.html
 [derivable-traits]: appendix-03-derivable-traits.html
-[methods]: ch05-03-method-syntax.html#methods
+[methods]: ch05-03-method-syntax.html#เมธอด
 [paths-module-tree]: ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html

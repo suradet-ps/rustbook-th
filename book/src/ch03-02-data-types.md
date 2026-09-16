@@ -236,11 +236,11 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 นี่คือตัวอย่างการทำงานจริงของหลักการความปลอดภัยของหน่วยความจำของ Rust ในภาษาโปรแกรมระดับต่ำหลายภาษา การตรวจสอบประเภทนี้ไม่ถูกทำ และเมื่อคุณให้ดัชนีที่ไม่ถูกต้อง หน่วยความจำที่ไม่ถูกต้องอาจถูกเข้าถึงได้ Rust ปกป้องคุณจากข้อผิดพลาดประเภทนี้โดยออกจากการทำงานทันที แทนที่จะยอมให้เข้าถึงหน่วยความจำนั้นและดำเนินการต่อไป บทที่ 9 พูดถึงการจัดการข้อผิดพลาดของ Rust เพิ่มเติม และวิธีที่คุณสามารถเขียนโค้ดที่อ่านง่ายและปลอดภัย ซึ่งทั้งไม่แพนิกและไม่อนุญาตให้เข้าถึงหน่วยความจำที่ไม่ถูกต้อง
 
-[comparing-the-guess-to-the-secret-number]: ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
+[comparing-the-guess-to-the-secret-number]: ch02-00-guessing-game-tutorial.html#การเปรียบเทียบคำทายกับตัวเลขลับ
 [twos-complement]: https://en.wikipedia.org/wiki/Two%27s_complement
-[control-flow]: ch03-05-control-flow.html#control-flow
-[strings]: ch08-02-strings.html#storing-utf-8-encoded-text-with-strings
-[stack-and-heap]: ch04-01-what-is-ownership.html#the-stack-and-the-heap
+[control-flow]: ch03-05-control-flow.html#การควบคุมโฟลว
+[strings]: ch08-02-strings.html#เกบขอความทีเขารหัส-utf-8-ดวยสตริง
+[stack-and-heap]: ch04-01-what-is-ownership.html#สแตกและฮีป
 [vectors]: ch08-01-vectors.html
 [unrecoverable-errors-with-panic]: ch09-01-unrecoverable-errors-with-panic.html
 [appendix_b]: appendix-02-operators.md

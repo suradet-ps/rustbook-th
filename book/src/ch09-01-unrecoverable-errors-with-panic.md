@@ -102,4 +102,4 @@ note: Some details are omitted, run with `RUST_BACKTRACE=full` for a verbose bac
 
 เราจะกลับมาที่ `panic!` และว่าเมื่อใดเราควรและไม่ควรใช้ `panic!` เพื่อจัดการเงื่อนไขข้อผิดพลาด ในหัวข้อ[“จะ `panic!` หรือไม่ `panic!`”][to-panic-or-not-to-panic]<!-- ignore --> ช่วงหลังของบทนี้ ต่อไป เราจะดูวิธีกู้คืนจากข้อผิดพลาดโดยใช้ `Result`
 
-[to-panic-or-not-to-panic]: ch09-03-to-panic-or-not-to-panic.html#to-panic-or-not-to-panic
+[to-panic-or-not-to-panic]: ch09-03-to-panic-or-not-to-panic.html#จะ-panic-หรือไม-panic

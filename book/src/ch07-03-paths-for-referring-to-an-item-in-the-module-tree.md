@@ -145,6 +145,6 @@ enum ไม่ค่อยมีประโยชน์เท่าไรถ้
 
 ยังมีอีกหนึ่งสถานการณ์ที่เกี่ยวข้องกับ `pub` ที่เรายังไม่ได้ครอบคลุม นั่นคือฟีเจอร์สุดท้ายของระบบมอดูล: คำสงวน `use` เราจะครอบคลุม `use` ด้วยตัวเองก่อน จากนั้นจะแสดงวิธีรวม `pub` และ `use` เข้าด้วยกัน
 
-[pub]: ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html#exposing-paths-with-the-pub-keyword
+[pub]: ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html#การเปิดเผยพาธดวยคำสงวน-pub
 [api-guidelines]: https://rust-lang.github.io/api-guidelines/
 [ch12]: ch12-00-an-io-project.html

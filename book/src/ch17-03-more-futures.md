@@ -163,4 +163,4 @@ Failed after 2 seconds
 
 ตอนนี้เราได้เห็นหลายวิธีในการทำงานกับฟิวเจอร์หลายตัวในเวลาเดียวกันแล้ว ต่อไปนี้ เราจะดูว่าเราทำงานกับฟิวเจอร์หลายตัวที่เรียงต่อกันตามเวลาด้วย_สตรีม_ (stream) ได้อย่างไร
 
-[async-program]: ch17-01-futures-and-syntax.html#our-first-async-program
+[async-program]: ch17-01-futures-and-syntax.html#โปรแกรม-async-โปรแกรมแรกของเรา

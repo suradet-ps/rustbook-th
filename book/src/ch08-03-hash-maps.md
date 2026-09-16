@@ -145,6 +145,6 @@ Blue: 10
 
 เรากำลังเข้าสู่โปรแกรมที่ซับซ้อนขึ้นซึ่งการดำเนินการต่างๆ อาจล้มเหลว นี่จึงเป็นเวลาที่เหมาะที่สุดที่จะพูดถึงการจัดการข้อผิดพลาด (error handling) เราจะพูดถึงเรื่องนั้นต่อไป!
 
-[validating-references-with-lifetimes]: ch10-03-lifetime-syntax.html#validating-references-with-lifetimes
-[access]: #accessing-values-in-a-hash-map
+[validating-references-with-lifetimes]: ch10-03-lifetime-syntax.html#การตรวจสอบความถูกตองของเรเฟอเรนซดวยไลฟไทม
+[access]: #การเขาถึงคาในแฮชแมป
 [traits]: ch10-02-traits.html

@@ -301,8 +301,8 @@ ignore --> ในบทที่ 10 เราได้กล่าวถึง�
 
 แพตเทิร์นนิวไทป์นี้ยังมีประโยชน์แม้ในกรณีที่ไม่เกี่ยวข้องกับเทรตเลย มาสลับความสนใจและดูวิธีขั้นสูงบางประการในการโต้ตอบกับระบบชนิดข้อมูลของ Rust กัน
 
-[newtype]: ch20-02-advanced-traits.html#implementing-external-traits-with-the-newtype-pattern
-[implementing-a-trait-on-a-type]: ch10-02-traits.html#implementing-a-trait-on-a-type
+[newtype]: ch20-02-advanced-traits.html#การอิมพลีเมนตเทรตภายนอกดวยแพตเทิรนนิวไทป
+[implementing-a-trait-on-a-type]: ch10-02-traits.html#การอิมพลีเมนตเทรตบนชนิดขอมูล
 [traits]: ch10-02-traits.html
-[smart-pointer-deref]: ch15-02-deref.html#treating-smart-pointers-like-regular-references
-[tuple-structs]: ch05-01-defining-structs.html#creating-different-types-with-tuple-structs
+[smart-pointer-deref]: ch15-02-deref.html#ปฏิบัติกับสมารตพอยนเตอรเหมือนเรเฟอเรนซทัวไป
+[tuple-structs]: ch05-01-defining-structs.html#การสรางชนิดขอมูลทีแตกตางกันดวยทูเพิล-struct

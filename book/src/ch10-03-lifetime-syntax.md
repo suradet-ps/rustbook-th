@@ -363,6 +363,6 @@ let s: &'static str = "I have a static lifetime.";
 
 เชื่อหรือไม่ว่า ยังมีอะไรให้เรียนรู้อีกมากในหัวข้อที่เราพูดคุยกันในบทนี้: บทที่ 18 พูดคุยถึงเทรตออบเจกต์ (trait object) ซึ่งเป็นอีกวิธีหนึ่งในการใช้เทรต นอกจากนี้ยังมีสถานการณ์ที่ซับซ้อนมากขึ้นซึ่งเกี่ยวข้องกับการระบุไลฟ์ไทม์ที่คุณจะต้องใช้เฉพาะในสถานการณ์ขั้นสูงมากๆ เท่านั้น สำหรับเรื่องเหล่านั้น คุณควรอ่าน[Rust Reference][reference] แต่ต่อไป คุณจะได้เรียนรู้วิธีเขียนเทสต์ใน Rust เพื่อให้คุณมั่นใจได้ว่าโค้ดของคุณทำงานอย่างที่มันควรจะทำ
 
-[references-and-borrowing]: ch04-02-references-and-borrowing.html#references-and-borrowing
-[string-slices-as-parameters]: ch04-03-slices.html#string-slices-as-parameters
+[references-and-borrowing]: ch04-02-references-and-borrowing.html#เรเฟอเรนซและการยืม
+[string-slices-as-parameters]: ch04-03-slices.html#สตริงสไลซในฐานะพารามิเตอร
 [reference]: ../reference/trait-bounds.html

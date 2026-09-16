@@ -30,6 +30,6 @@ main.rs
 
 ในที่นี้ เรามีแพ็กเกจที่บรรจุเพียง _src/main.rs_ ซึ่งหมายความว่ามันบรรจุเพียงเครตไบนารีชื่อ `my-project` หากแพ็กเกจบรรจุทั้ง _src/main.rs_ และ _src/lib.rs_ มันจะมีสองเครต คือไบนารีและไลบรารี ทั้งคู่มีชื่อเดียวกับแพ็กเกจ แพ็กเกจสามารถมีเครตไบนารีหลายตัวได้โดยวางไฟล์ไว้ในไดเรกทอรี _src/bin_: แต่ละไฟล์จะเป็นเครตไบนารีแยกกัน
 
-[basics]: ch01-02-hello-world.html#rust-program-basics
+[basics]: ch01-02-hello-world.html#พืนฐานของโปรแกรม-rust
 [modules]: ch07-02-defining-modules-to-control-scope-and-privacy.html
-[rand]: ch02-00-guessing-game-tutorial.html#generating-a-random-number
+[rand]: ch02-00-guessing-game-tutorial.html#การสรางตัวเลขสุม

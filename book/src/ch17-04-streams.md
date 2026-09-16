@@ -70,4 +70,4 @@ help: there is a method `try_next` with a similar name
 เมื่อนำชิ้นส่วนทั้งหมดนั้นมาประกอบเข้าด้วยกัน โค้ดนี้ก็ทำงานอย่างที่เราต้องการ! ยิ่งไปกว่านั้น เมื่อเรามี `StreamExt` อยู่ในสโคปแล้ว เราก็ใช้เมธอดอรรถประโยชน์ทั้งหมดของมันได้ เช่นเดียวกับที่ใช้กับอิเทอเรเตอร์
 
 [17-02-messages]: ch17-02-concurrency-with-async.html#message-passing
-[iterator-trait]: ch13-02-iterators.html#the-iterator-trait-and-the-next-method
+[iterator-trait]: ch13-02-iterators.html#เทรต-iterator-และเมธอด-next

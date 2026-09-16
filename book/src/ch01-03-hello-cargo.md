@@ -164,7 +164,7 @@ $ cargo build
 
 นี่เป็นเวลาที่ดีในการสร้างโปรแกรมที่จริงจังขึ้นเพื่อให้คุ้นเคยกับการอ่านและเขียนโค้ด Rust ดังนั้นในบทที่ 2 เราจะสร้างโปรแกรมเกมทายตัวเลข หากคุณอยากเริ่มด้วยการเรียนรู้ว่าแนวคิดพื้นฐานของการเขียนโปรแกรมใน Rust ทำงานอย่างไร ให้อ่านบทที่ 3 แล้วค่อยกลับมาที่บทที่ 2
 
-[installation]: ch01-01-installation.html#การตดตง
+[installation]: ch01-01-installation.html#การติดตัง
 [toml]: https://toml.io
 [appendix-e]: appendix-05-editions.html
 [cargo]: https://doc.rust-lang.org/cargo/

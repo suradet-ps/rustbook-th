@@ -146,7 +146,7 @@ _พูลเธรด_ คือกลุ่มของเธรด (thread) �
 {{#include ../listings/ch21-web-server/no-listing-02-impl-threadpool-new/output.txt}}
 ```
 
-ตอนนี้ข้อผิดพลาดเกิดขึ้นเพราะเราไม่มีเมธอด `execute` บน `ThreadPool` ย้อนนึกจากหัวข้อ[“การสร้างเธรดจำนวนจำกัด”](#creating-a-finite-number-of-threads)<!-- ignore --> ว่าเราตัดสินใจว่าพูลเธรดของเราควรมีอินเทอร์เฟซที่คล้ายกับ `thread::spawn` นอกจากนี้ เราจะอิมพลีเมนต์ฟังก์ชัน `execute` เพื่อให้มันรับโคลเชอร์ที่ได้รับมาแล้วมอบให้เธรดที่ว่างอยู่ในพูลรัน
+ตอนนี้ข้อผิดพลาดเกิดขึ้นเพราะเราไม่มีเมธอด `execute` บน `ThreadPool` ย้อนนึกจากหัวข้อ[“การสร้างเธรดจำนวนจำกัด”](#การสรางเธรดจำนวนจำกัด)<!-- ignore --> ว่าเราตัดสินใจว่าพูลเธรดของเราควรมีอินเทอร์เฟซที่คล้ายกับ `thread::spawn` นอกจากนี้ เราจะอิมพลีเมนต์ฟังก์ชัน `execute` เพื่อให้มันรับโคลเชอร์ที่ได้รับมาแล้วมอบให้เธรดที่ว่างอยู่ในพูลรัน
 
 เราจะนิยามเมธอด `execute` บน `ThreadPool` ให้รับโคลเชอร์เป็นพารามิเตอร์ ย้อนนึกจาก[“การย้ายค่าที่ถูกจับออกจากโคลเชอร์”][moving-out-of-closures]<!-- ignore --> ในบทที่ 13 ว่าเรารับโคลเชอร์เป็นพารามิเตอร์ได้ด้วยเทรต (trait) สามตัวที่แตกต่างกัน: `Fn`, `FnMut` และ `FnOnce` เราจำเป็นต้องตัดสินใจว่าจะใช้โคลเชอร์ชนิดใดที่นี่ เรารู้ว่าในที่สุดเราจะทำอะไรคล้ายกับการอิมพลีเมนต์ `thread::spawn` ของไลบรารีมาตรฐาน ดังนั้นเราจึงดูได้ว่าซิกเนเจอร์ของ `thread::spawn` มีบาวด์ (bound) อะไรกับพารามิเตอร์ของมัน เอกสารแสดงให้เราเห็นดังนี้:
 
@@ -453,8 +453,8 @@ let` (รวมถึง `if let` และ `match`) จะไม่ทิ้ง
 ระยะเวลาของการเรียก `job()` หมายความว่าอินสแตนซ์ `Worker` อื่นๆ
 ไม่สามารถรับงานได้
 
-[type-aliases]: ch20-03-advanced-types.html#type-synonyms-and-type-aliases
-[integer-types]: ch03-02-data-types.html#integer-types
-[moving-out-of-closures]: ch13-01-closures.html#moving-captured-values-out-of-closures
+[type-aliases]: ch20-03-advanced-types.html#ชือพองของชนิดขอมูลและชือแทนชนิดขอมูล
+[integer-types]: ch03-02-data-types.html#ชนิดจำนวนเตม
+[moving-out-of-closures]: ch13-01-closures.html#การยายคาทีถูกจับออกจากโคลเชอร
 [builder]: ../std/thread/struct.Builder.html
 [builder-spawn]: ../std/thread/struct.Builder.html#method.spawn

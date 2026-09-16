@@ -171,8 +171,8 @@ ignore --> ในบทที่ 18 เราได้กล่าวว่า�
 
 ต่อไป เราจะพูดคุยเกี่ยวกับฟังก์ชันและโคลเชอร์!
 
-[encapsulation-that-hides-implementation-details]: ch18-01-what-is-oo.html#encapsulation-that-hides-implementation-details
-[string-slices]: ch04-03-slices.html#string-slices
-[the-match-control-flow-construct]: ch06-02-match.html#the-match-control-flow-construct
-[using-trait-objects-to-abstract-over-shared-behavior]: ch18-02-trait-objects.html#using-trait-objects-to-abstract-over-shared-behavior
-[newtype]: ch20-02-advanced-traits.html#implementing-external-traits-with-the-newtype-pattern
+[encapsulation-that-hides-implementation-details]: ch18-01-what-is-oo.html#การหอหุมทีซอนรายละเอียดการอิมพลีเมนต
+[string-slices]: ch04-03-slices.html#สตริงสไลซ
+[the-match-control-flow-construct]: ch06-02-match.html#โครงสรางควบคุมโฟลว-match
+[using-trait-objects-to-abstract-over-shared-behavior]: ch18-02-trait-objects.html#การใชเทรตออบเจกตเพือนามธรรมพฤติกรรมรวม
+[newtype]: ch20-02-advanced-traits.html#การอิมพลีเมนตเทรตภายนอกดวยแพตเทิรนนิวไทป

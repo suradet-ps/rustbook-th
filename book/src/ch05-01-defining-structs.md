@@ -209,6 +209,6 @@ pbcopy < listings/ch05-using-structs-to-structure-related-data/no-listing-02-ref
 paste above
 add `> ` before every line -->
 
-[tuples]: ch03-02-data-types.html#the-tuple-type
-[move]: ch04-01-what-is-ownership.html#variables-and-data-interacting-with-move
-[copy]: ch04-01-what-is-ownership.html#stack-only-data-copy
+[tuples]: ch03-02-data-types.html#ชนิดทูเพิล
+[move]: ch04-01-what-is-ownership.html#ตัวแปรและขอมูลทีปฏิสัมพันธกันดวยการยายคา
+[copy]: ch04-01-what-is-ownership.html#ขอมูลบนสแตกเทานัน-การคัดลอกคา

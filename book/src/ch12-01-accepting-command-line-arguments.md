@@ -73,4 +73,4 @@ $ cargo run -- searchstring example-filename.txt
 เยี่ยม โปรแกรมทำงานได้แล้ว! ค่าของอาร์กิวเมนต์ที่เราต้องการถูกบันทึกเข้าไปในตัวแปรที่ถูกต้อง ต่อไปเราจะเพิ่มการจัดการข้อผิดพลาด (error handling) เพื่อรับมือกับสถานการณ์ที่อาจเกิดข้อผิดพลาดบางกรณี เช่นเมื่อผู้ใช้ไม่ใส่อาร์กิวเมนต์เลย สำหรับตอนนี้ เราจะเพิกเฉยต่อสถานการณ์นั้นและไปเพิ่มความสามารถในการอ่านไฟล์แทน
 
 [ch13]: ch13-00-functional-features.html
-[ch7-idiomatic-use]: ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#creating-idiomatic-use-paths
+[ch7-idiomatic-use]: ch07-04-bringing-paths-into-scope-with-the-use-keyword.html#การสรางพาธ-use-ตามสำนวนนิยม

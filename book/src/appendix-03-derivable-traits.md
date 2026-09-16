@@ -85,6 +85,6 @@
 เทรต `Default` จำเป็นเมื่อคุณใช้เมธอด `unwrap_or_default` บนอินสแตนซ์ `Option<T>` เป็นต้น หาก `Option<T>` เป็น `None` เมธอด `unwrap_or_default` จะคืนผลลัพธ์ของ `Default::default` สำหรับชนิด `T` ที่จัดเก็บอยู่ใน `Option<T>`
 
 [creating-instances-from-other-instances-with-struct-update-syntax]: ch05-01-defining-structs.html#creating-instances-from-other-instances-with-struct-update-syntax
-[stack-only-data-copy]: ch04-01-what-is-ownership.html#stack-only-data-copy
-[variables-and-data-interacting-with-clone]: ch04-01-what-is-ownership.html#variables-and-data-interacting-with-clone
-[custom-derive-macros]: ch20-05-macros.html#custom-derive-macros
+[stack-only-data-copy]: ch04-01-what-is-ownership.html#ขอมูลบนสแตกเทานัน-การคัดลอกคา
+[variables-and-data-interacting-with-clone]: ch04-01-what-is-ownership.html#ตัวแปรและขอมูลทีปฏิสัมพันธกันดวยการโคลน
+[custom-derive-macros]: ch20-05-macros.html#มาโคร-derive-แบบกำหนดเอง

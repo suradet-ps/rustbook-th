@@ -281,4 +281,4 @@ struct `DraftPost` มีเมธอด `add_text` เราจึงเพิ�
 ต่อไป เราจะดูแพตเทิร์น ซึ่งเป็นอีกหนึ่งฟีเจอร์ของ Rust ที่เปิดให้มีความยืดหยุ่นมากมาย เราได้ดูมันผ่านๆ ตลอดทั้งเล่มแต่ยังไม่เห็นความสามารถเต็มรูปแบบของมัน ไปกันเลย!
 
 [more-info-than-rustc]: ch09-03-to-panic-or-not-to-panic.html#cases-in-which-you-have-more-information-than-the-compiler
-[macros]: ch20-05-macros.html#macros
+[macros]: ch20-05-macros.html#มาโคร

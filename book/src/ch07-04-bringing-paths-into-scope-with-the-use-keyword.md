@@ -206,6 +206,6 @@ use std::collections::*;
 
 ตัวดำเนินการ glob มักถูกใช้เมื่อเขียนเทสต์เพื่อนำทุกอย่างที่อยู่ภายใต้การทดสอบเข้าสู่มอดูล `tests` เราจะพูดถึงเรื่องนั้นใน[“วิธีเขียนเทสต์”][writing-tests]<!-- ignore --> ในบทที่ 11 ตัวดำเนินการ glob บางครั้งยังถูกใช้เป็นส่วนหนึ่งของแพตเทิร์นพรีลูด (prelude pattern): ดู[เอกสารไลบรารีมาตรฐาน](../std/prelude/index.html#other-preludes)<!-- ignore --> สำหรับข้อมูลเพิ่มเติมเกี่ยวกับแพตเทิร์นนั้น
 
-[ch14-pub-use]: ch14-02-publishing-to-crates-io.html#exporting-a-convenient-public-api
-[rand]: ch02-00-guessing-game-tutorial.html#generating-a-random-number
-[writing-tests]: ch11-01-writing-tests.html#how-to-write-tests
+[ch14-pub-use]: ch14-02-publishing-to-crates-io.html#การสงออก-api-สาธารณะทีสะดวกตอการใชงาน
+[rand]: ch02-00-guessing-game-tutorial.html#การสรางตัวเลขสุม
+[writing-tests]: ch11-01-writing-tests.html#วิธีเขียนเทสต

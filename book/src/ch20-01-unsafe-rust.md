@@ -295,11 +295,11 @@ Miri ไม่ได้จับทุกอย่างที่คุณอา
 
 สำหรับการสำรวจเชิงลึกมากกว่านี้เกี่ยวกับวิธีทำงานกับ unsafe Rust อย่างมีประสิทธิภาพ โปรดอ่านคู่มืออย่างเป็นทางการของ Rust สำหรับ `unsafe` คือ[“The Rustonomicon”][nomicon]
 
-[dangling-references]: ch04-02-references-and-borrowing.html#dangling-references
+[dangling-references]: ch04-02-references-and-borrowing.html#เรเฟอเรนซทีชีไปยังหนวยความจำทีถูกคืนแลว
 [ABI]: ../reference/items/external-blocks.html#abi
-[constants]: ch03-01-variables-and-mutability.html#declaring-constants
+[constants]: ch03-01-variables-and-mutability.html#การประกาศคาคงที
 [send-and-sync]: ch16-04-extensible-concurrency-sync-and-send.html
-[the-slice-type]: ch04-03-slices.html#the-slice-type
+[the-slice-type]: ch04-03-slices.html#ชนิดสไลซ
 [unions]: ../reference/items/unions.html
 [miri]: https://github.com/rust-lang/miri
 [editions]: appendix-05-editions.html

@@ -189,4 +189,4 @@ help: to force the closure to take ownership of `v` (and any other referenced va
 
 ตอนนี้ที่เราได้ครอบคลุมว่าเธรดคืออะไรและเมธอดต่างๆ ที่ API ของเธรดจัดเตรียมไว้แล้ว มาดูสถานการณ์บางอย่างที่เราสามารถใช้เธรดได้กัน
 
-[capture]: ch13-01-closures.html#capturing-references-or-moving-ownership
+[capture]: ch13-01-closures.html#การจับเรเฟอเรนซหรือการยายความเปนเจาของ

@@ -88,4 +88,4 @@
 
 ตอนนี้คุณได้เห็นวิธีที่มีประโยชน์ที่ไลบรารีมาตรฐานใช้เจเนอริกกับ enum `Option` และ `Result` แล้ว เราจะพูดถึงว่าเจเนอริกทำงานอย่างไรและคุณจะใช้มันในโค้ดของคุณได้อย่างไร
 
-[encoding]: ch18-03-oo-design-patterns.html#encoding-states-and-behavior-as-types
+[encoding]: ch18-03-oo-design-patterns.html#การเขารหัสสถานะและพฤติกรรมเปนชนิดขอมูล

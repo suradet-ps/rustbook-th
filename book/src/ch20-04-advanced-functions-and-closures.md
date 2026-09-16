@@ -104,8 +104,8 @@
 
 ต่อไป มาดูมาโคร (macro) กัน!
 
-[advanced-traits]: ch20-02-advanced-traits.html#advanced-traits
-[enum-values]: ch06-01-defining-an-enum.html#enum-values
+[advanced-traits]: ch20-02-advanced-traits.html#เทรตขันสูง
+[enum-values]: ch06-01-defining-an-enum.html#คาของ-enum
 [closure-types]: ch13-01-closures.html#closure-type-inference-and-annotation
 [future-types]: ch17-03-more-futures.html
 [trait-objects]: ch18-02-trait-objects.html

@@ -154,7 +154,7 @@ Rust จำเป็นต้องรู้ว่าชนิดใดจะอ
 
 มาดูชนิดคอลเลกชันถัดไปกัน: `String`!
 
-[data-types]: ch03-02-data-types.html#data-types
+[data-types]: ch03-02-data-types.html#ชนิดขอมูล
 [nomicon]: ../nomicon/vec/vec.html
 [vec-api]: ../std/vec/struct.Vec.html
 [deref]: ch15-02-deref.html#following-the-pointer-to-the-value-with-the-dereference-operator

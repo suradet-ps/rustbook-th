@@ -258,9 +258,9 @@ received 'you'
 
 เราได้สำรวจวิธีใช้การส่งผ่านข้อความเพื่อส่งข้อมูลระหว่างฟิวเจอร์ วิธีที่โค้ดภายในบล็อก async ทำงานตามลำดับ วิธีเคลื่อนความเป็นเจ้าของเข้าสู่บล็อก async และวิธี join ฟิวเจอร์หลายตัว ต่อไป มาพูดถึงวิธีการและเหตุผลในการบอกให้รันไทม์สลับไปทำงานอื่นได้
 
-[thread-spawn]: ch16-01-threads.html#creating-a-new-thread-with-spawn
-[join-handles]: ch16-01-threads.html#waiting-for-all-threads-to-finish
+[thread-spawn]: ch16-01-threads.html#การสรางเธรดใหมดวย-spawn
+[join-handles]: ch16-01-threads.html#การรอใหเธรดทังหมดทำงานเสรจ
 [message-passing-threads]: ch16-02-message-passing.html
 [if-let]: ch06-03-if-let.html
-[capture-or-move]: ch13-01-closures.html#capturing-references-or-moving-ownership
-[move-threads]: ch16-01-threads.html#using-move-closures-with-threads
+[capture-or-move]: ch13-01-closures.html#การจับเรเฟอเรนซหรือการยายความเปนเจาของ
+[move-threads]: ch16-01-threads.html#การใชโคลเชอร-move-กับเธรด

@@ -224,6 +224,6 @@ assert_eq!(slice, &[2, 3]);
 ความเป็นเจ้าของส่งผลต่อการทำงานของส่วนอื่นๆ อีกมากมายของ Rust ดังนั้นเราจะพูดถึงแนวคิดเหล่านี้ต่อไปตลอดหนังสือเล่มที่เหลือ มาต่อกันที่บทที่ 5 เพื่อดูการจัดกลุ่มข้อมูลชิ้นต่างๆ เข้าด้วยกันใน `struct`
 
 [ch13]: ch13-02-iterators.html
-[ch6]: ch06-02-match.html#patterns-that-bind-to-values
-[strings]: ch08-02-strings.html#storing-utf-8-encoded-text-with-strings
+[ch6]: ch06-02-match.html#แพตเทิรนทีผูกกับคา
+[strings]: ch08-02-strings.html#เกบขอความทีเขารหัส-utf-8-ดวยสตริง
 [deref-coercions]: ch15-02-deref.html#using-deref-coercions-in-functions-and-methods

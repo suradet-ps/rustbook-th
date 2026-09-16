@@ -326,11 +326,11 @@ in traits, since the lack thereof is the reason they do not yet have this.
 
 นั่นคือทั้งหมดที่เราจะครอบคลุมสำหรับรายละเอียดระดับต่ำของเทรตเหล่านี้ เพื่อปิดท้าย มาพิจารณาว่าฟิวเจอร์ (รวมถึงสตรีม) ทาสก์ (task) และเธรด (thread) ทั้งหมดประกอบเข้าด้วยกันอย่างไร!
 
-[message-passing]: ch17-02-concurrency-with-async.md#sending-data-between-two-tasks-using-message-passing
+[message-passing]: ch17-02-concurrency-with-async.md#การสงขอมูลระหวางสองทาสกดวยการสงผานขอความ
 [ch-18]: ch18-00-oop.html
 [async-book]: https://rust-lang.github.io/async-book/
 [under-the-hood]: https://rust-lang.github.io/async-book/02_execution/01_chapter.html
 [pinning]: https://rust-lang.github.io/async-book/04_pinning/01_chapter.html
-[first-async]: ch17-01-futures-and-syntax.html#our-first-async-program
+[first-async]: ch17-01-futures-and-syntax.html#โปรแกรม-async-โปรแกรมแรกของเรา
 [any-number-futures]: ch17-03-more-futures.html#working-with-any-number-of-futures
 [streams]: ch17-04-streams.html

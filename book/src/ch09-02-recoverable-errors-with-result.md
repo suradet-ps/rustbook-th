@@ -304,6 +304,6 @@ don't want to include it for rustdoc testing purposes. -->
 
 ตอนนี้เราได้พูดคุยรายละเอียดของการเรียก `panic!` หรือการคืนค่า `Result` กันแล้ว มากลับไปที่หัวข้อวิธีตัดสินใจว่าอะไรเหมาะสมที่จะใช้ในกรณีใด
 
-[handle_failure]: ch02-00-guessing-game-tutorial.html#handling-potential-failure-with-result
-[trait-objects]: ch18-02-trait-objects.html#using-trait-objects-to-abstract-over-shared-behavior
+[handle_failure]: ch02-00-guessing-game-tutorial.html#การจัดการความลมเหลวทีอาจเกิดขึนดวย-result
+[trait-objects]: ch18-02-trait-objects.html#การใชเทรตออบเจกตเพือนามธรรมพฤติกรรมรวม
 [termination]: ../std/process/trait.Termination.html

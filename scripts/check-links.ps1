@@ -29,6 +29,11 @@ foreach ($f in $files) {
         } elseif ($href -like '*.html*' -or $href -like '*print.html*') {
             $page = ($href -split '[?#]')[0]
             $resolved = [System.IO.Path]::GetFullPath((Join-Path (Split-Path $f.FullName) ($page -replace '/', '\')))
+            # Links that escape the built book (e.g. ../std/..., ../reference/...)
+            # point at the host documentation (doc.rust-lang.org); they are not
+            # files in this repository and are skipped here.
+            $bookPrefix = $book.TrimEnd('\') + '\'
+            if (-not $resolved.StartsWith($bookPrefix, [System.StringComparison]::OrdinalIgnoreCase)) { continue }
             if (-not (Test-Path -LiteralPath $resolved)) {
                 $broken += "$rel -> $href (file missing)"
                 continue
