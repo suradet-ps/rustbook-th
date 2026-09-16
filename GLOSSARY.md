@@ -17,6 +17,7 @@
 | identifier | ชื่อเรียก (identifier) | ชื่อของตัวแปร ฟังก์ชัน ฯลฯ |
 | operator | ตัวดำเนินการ (operator) | |
 | symbol | สัญลักษณ์ (symbol) | |
+| logic | ตรรกะ (logic) | ใช้ "ตรรกะ" ทั้งเล่ม (ไม่ใช้ "ลอจิก" หรือ "โลจิก") |
 | syntax | วากยสัมพันธ์ (syntax) | โครงสร้างการเขียนโค้ด |
 | variable | ตัวแปร | |
 | binding | การผูกค่า (binding) | เช่น `let x = 5;` |
@@ -176,6 +177,7 @@
 | workspace | เวิร์กสเปซ (workspace) | |
 | release profile | โปรไฟล์การรีลีส (release profile) | |
 | semantic versioning | การกำหนดเวอร์ชันเชิงความหมาย (semantic versioning) | |
+| registry | เรจิสทรี (registry) | เช่น เรจิสทรีเครตที่ crates.io |
 | executable | ไฟล์รันได้ (executable) | |
 | source file | ไฟล์ซอร์ส (source file) | |
 | command line | บรรทัดคำสั่ง (command line) | |
